@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage ('scm'){
             steps{
-                git url:"https://github.com/gowthamlearning/js-e2e-express-server.git",
+                git url:"https://github.com/GOWTHI143/js-e2e-express-server.git",
                 branch:"main"
             }
          }
