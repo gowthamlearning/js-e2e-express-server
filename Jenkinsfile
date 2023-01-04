@@ -7,7 +7,6 @@ pipeline{
                 branch:"main"
             }
          }
-            
         stage ('build') {
             steps{
                 npm install
